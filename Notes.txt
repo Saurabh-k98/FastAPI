@@ -1,0 +1,6 @@
+Example: async def this_is_a_function():
+We use async in FastAPI, due to asynchronous code, concurrency, and parallelism.
+Using async is not necessary when coding with FastAPI, however during this course I am being explicit with saying async before each function.
+Therefore you may use def this_is_a_function():  instead.
+In any of the cases above, FastAPI will still work asynchronously and perform very fast.
+Using async before the function, typically provides performance optimizations when handling asynchronous functions.
